@@ -492,14 +492,14 @@ app.layout = html.Div(
                         "text-align": "center",
                     },
                 ),
-                dcc.Markdown(
-                    """\
-                         1.	Số liệu tổng cục thống kê: https://www.gso.gov.vn/
-                         2.	Số liệu tổng điều tra dân số và nhà ở 2019: https://www.gso.gov.vn/tong-dieu-tra-dan-so-va-nha-o/
-                         3. Dữ liệu địa không gian được sưu tầm tại trang web của tổ chức Sáng kiến phát triển mở Việt Nam (Open Development Vietnam – ODV): https://vietnam.opendevelopmentmekong.net/vi/about-us/.
-                        """,
-                    style={"font-size": "10pt"},
-                ),
+                # dcc.Markdown(
+                #     """\
+                #          1.	Số liệu tổng cục thống kê: https://www.gso.gov.vn/
+                #          2.	Số liệu tổng điều tra dân số và nhà ở 2019: https://www.gso.gov.vn/tong-dieu-tra-dan-so-va-nha-o/
+                #          3. Dữ liệu địa không gian được sưu tầm tại trang web của tổ chức Sáng kiến phát triển mở Việt Nam (Open Development Vietnam – ODV): https://vietnam.opendevelopmentmekong.net/vi/about-us/.
+                #         """,
+                #     style={"font-size": "10pt"},
+                # ),
             ],
             className="pretty_container",
         ),
